@@ -1,11 +1,7 @@
 import re
 import os
 
-<<<<<<< HEAD
 carmelPath = './carmel'
-=======
-carmelPath = 'carmel'
->>>>>>> origin/master
 
 class FSM:        
     def __init__(self, isTransducer=False, isProbabilistic=False):

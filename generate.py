@@ -17,10 +17,6 @@ def iterateRules():
     # your task is to write the next rule, which should map "_c+ed"
     # and "_c+ing" to a version with "ck" instead, so long as "_" is a
     # vowel.
-<<<<<<< HEAD
-=======
-    yield ("(.*)([aeiou])c\+(ed|ing)", "\\1\\2ck\\3")
->>>>>>> origin/master
     #
     # if you need help with python regular expressions, see:
     #   http://docs.python.org/library/re.html
