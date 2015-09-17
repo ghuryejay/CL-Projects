@@ -13,7 +13,7 @@ def buildSourceModel(vocabulary, suffixes):
     fsa.setFinalState('end')
     
     ### TODO: YOUR CODE HERE
-    util.raiseNotDefined()
+    #util.raiseNotDefined()
 
     return fsa
 
@@ -58,7 +58,7 @@ def buildChannelModel():
 
     # implementation of rule 3
     ### TODO: YOUR CODE HERE
-    util.raiseNotDefined()
+    #util.raiseNotDefined()
 
     return fst
 
