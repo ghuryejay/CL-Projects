@@ -13,6 +13,37 @@ def buildSourceModel(vocabulary, suffixes):
     fsa.setFinalState('end')
     
     ### TODO: YOUR CODE HERE
+
+    for word in vocabulary:
+
+        #add edge from start state to first letter in word
+        fsa.addEdge('start',word[0],word[0])
+        #add edges between letters of remaining word
+        word_completed = word[0]
+
+        for i in range(1,len(word)):
+            fsa.addEdge(word_completed,word_completed + word[i], word[i])
+            word_completed += word[i]
+
+        #add edge to end state from end of the word and to the '+' if suffix exists
+        fsa.addEdge(word,'end',None)
+        fsa.addEdge(word,'+','+')
+
+    for suffix in suffixes:
+        if suffix == '':
+            continue
+        #add suffixes in similar manner as vocabulary
+
+        fsa.addEdge('start',suffix[0],suffix[0])
+
+        suffix_completed = suffix[0]
+        
+        for i in range(1,len(suffix)):
+            fsa.addEdge(suffix_completed,suffix_completed + suffix[i],suffix[i])
+            suffix_completed += suffix[i]
+
+        fsa.addEdge(suffix,'end',None)
+
     #util.raiseNotDefined()
 
     return fsa
@@ -58,6 +89,8 @@ def buildChannelModel():
 
     # implementation of rule 3
     ### TODO: YOUR CODE HERE
+
+
     #util.raiseNotDefined()
 
     return fst
@@ -69,6 +102,7 @@ def simpleTest():
     print "==== Trying source model on strings 'ace+ed' ===="
     output = FSM.runFST([fsa], ["ace+ed"])
     print "==== Result: ", str(output), " ===="
+
 
     print "==== Trying source model on strings 'panic+ing' ===="
     output = FSM.runFST([fsa], ["panic+ing"])
