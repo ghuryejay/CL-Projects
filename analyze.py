@@ -13,6 +13,7 @@ def buildSourceModel(vocabulary, suffixes):
     fsa.setFinalState('end')
     
     ### TODO: YOUR CODE HERE
+<<<<<<< HEAD
 
     for word in vocabulary:
 
@@ -45,6 +46,9 @@ def buildSourceModel(vocabulary, suffixes):
         fsa.addEdge(suffix,'end',None)
 
     #util.raiseNotDefined()
+=======
+    util.raiseNotDefined()
+>>>>>>> 22b9cfee250bab90a00d7e0b1f9925bae40810d6
 
     return fsa
 
@@ -89,9 +93,13 @@ def buildChannelModel():
 
     # implementation of rule 3
     ### TODO: YOUR CODE HERE
+<<<<<<< HEAD
 
 
     #util.raiseNotDefined()
+=======
+    util.raiseNotDefined()
+>>>>>>> 22b9cfee250bab90a00d7e0b1f9925bae40810d6
 
     return fst
 
