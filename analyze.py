@@ -1,7 +1,7 @@
 import FSM
 import util
 
-vocabulary = ['panic', 'picnic', 'ace', 'pack', 'pace', 'traffic', 'lilac', 'ice', 'spruce', 'frolic']
+vocabulary = ['panic', 'picnic', 'ace', 'pack', 'pace', 'traffic', 'lilac', 'ice', 'spruce', 'frolic','kick']
 suffixes   = ['', '+ed', '+ing', '+s']
 
 def buildSourceModel(vocabulary, suffixes):
@@ -89,6 +89,14 @@ def buildChannelModel():
 
     # implementation of rule 3
     ### TODO: YOUR CODE HERE
+     # implementation of rule 3
+    fst.addEdge('start', 'rule3', None, None)   # epsilon transition
+    fst.addEdge('rule3', 'rule3', '.', '.')     # accept any character and copy it
+    fst.addEdge('rule3', 'rule3a', 'c', 'c')    # Found c 
+    fst.addEdge('rule3a', 'rule3b', '+', 'k')   # Found a k after c, replace it by +
+    fst.addEdge('rule3b', 'rule3b', '.', '.')   # consume and print rest of word
+
+    fst.addEdge('rule3b', 'end', None, None)
 
 
     #util.raiseNotDefined()
@@ -113,7 +121,13 @@ def simpleTest():
     print "==== Result: ", str(output), " ===="
 
     print "==== Disambiguating a few phrases: aced, panicked, paniced, sprucing ===="
-    output = FSM.runFST([fsa,fst], ["aced", "paniced", "panicked", "sprucing"])
+    output = FSM.runFST([fsa,fst], ["aced", "paniced", "panicked", "sprucing","kicks"])
     print "==== Result: ", str(output), " ===="
+
+def main():
+    simpleTest()
+
+if __name__ == '__main__':
+    main()
 
     
