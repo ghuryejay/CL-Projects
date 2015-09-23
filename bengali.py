@@ -113,7 +113,21 @@ def bigramSourceModel(segmentations):
     fsa.setInitialState('start')
     fsa.setFinalState('end')
     ### TODO: YOUR CODE HERE
-    util.raiseNotDefined()
+    #adding edge from start state to first characters of words
+    for c in lm['start']:
+        fsa.addEdge('start',c,c,prob=lm['start'][c])
+    #add edges between remaining characters of each word
+    for key in lm.keys():
+        if key != 'start':
+            for c in lm[key]:
+                #for edge to end state
+                if c == 'end':
+                    fsa.addEdge(key,c,None,prob=lm[key][c])
+                #for edge to next character
+                else:
+                    fsa.addEdge(key,c,c,prob=lm[key][c])
+
+    #util.raiseNotDefined()
     return fsa
 
 def buildSegmentChannelModel(words, segmentations):
@@ -121,7 +135,36 @@ def buildSegmentChannelModel(words, segmentations):
     fst.setInitialState('start')
     fst.setFinalState('end')
     ### TODO: YOUR CODE HERE
-    util.raiseNotDefined()
+    #util.raiseNotDefined()
+    characters = {}
+    segments_processed = {}
+    for segments in segmentations:
+        segments = segments.split('+')
+        for segment in segments:
+            if segment not in segments_processed:
+                segments_processed[segment] = 1
+                #edge from start to first character
+                fst.addEdge('start',segment[0],segment[0],segment[0],prob=1)
+                processed_seg = segment[0]
+                remaining_seg = segment[1:]
+                for s in remaining_seg:
+                    if s not in characters:
+                        characters[s] = 1
+                    fst.addEdge(processed_seg,processed_seg + s, s, s,prob=1)
+                    processed_seg += s
+
+                #add edge to end state
+                fst.addEdge(segment,'end',None,None,prob=1)
+                #add edge to start state for processing part after +
+                fst.addEdge(segment,'start','+',None,prob=1)
+
+    #add edges from start to unseen characters for smoothing
+    for char in characters:
+        fst.addEdge('start','start',char,char,prob=0.1)
+
+    fst.addEdge('start', 'intermediate', None, None, prob=0.1)
+    fst.addEdge('intermediate', 'start', '+', None, prob=0.1)
+    fst.addEdge('intermediate', 'end', None, None, prob=0.1)
 
     return fst
 
@@ -166,4 +209,11 @@ def saveOutput(filename, output):
         h.write(o)
         h.write('\n')
     h.close()
+
+def main():
+    output = runTest(devFile="bengali.test",source=bigramSourceModel,channel=buildSegmentChannelModel)
+    saveOutput('bengali.test.predictions', output)
+
+if __name__ == '__main__':
+    main()
     
