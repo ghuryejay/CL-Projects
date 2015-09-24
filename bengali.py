@@ -162,14 +162,21 @@ def buildSegmentChannelModel(words, segmentations):
     for char in characters:
         fst.addEdge('start','start',char,char,prob=0.1)
 
+    fst.addEdge('start','start','+',None,prob=0.1)
+
+    '''
     fst.addEdge('start', 'intermediate', None, None, prob=0.1)
     fst.addEdge('intermediate', 'start', '+', None, prob=0.1)
     fst.addEdge('intermediate', 'end', None, None, prob=0.1)
+    '''
 
     return fst
 
 
 def fancySouceModel(segmentations):
+    fsa = FSM.FSM(isProbabilistic=True)
+    fsa.setInitialState('start')
+    fsa.setFinalState('end')
     raise Exception("fancySouceModel not defined")
 
 def fancyChannelModel(words, segmentations):
@@ -211,9 +218,7 @@ def saveOutput(filename, output):
     h.close()
 
 def main():
-    output = runTest(devFile="bengali.test",source=bigramSourceModel,channel=buildSegmentChannelModel)
-    saveOutput('bengali.test.predictions', output)
-
+    out = runTest(channel=buildSegmentChannelModel)
 if __name__ == '__main__':
     main()
     
