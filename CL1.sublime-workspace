@@ -1,0 +1,1158 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"th",
+				"threshold"
+			],
+			[
+				"mat",
+				"matrix	(analyze.pancancer.patterns.R)"
+			],
+			[
+				"signi",
+				"significance	(analyze.pancancer.patterns.R)"
+			],
+			[
+				"T",
+				"T"
+			],
+			[
+				"qu",
+				"queues"
+			],
+			[
+				"txt",
+				"txt_fil"
+			],
+			[
+				"NA",
+				"NA"
+			],
+			[
+				"sum",
+				"summary"
+			],
+			[
+				"patt",
+				"patterns"
+			],
+			[
+				"patter",
+				"pattern"
+			],
+			[
+				"patte",
+				"pattern"
+			],
+			[
+				"data",
+				"datatype"
+			],
+			[
+				"boots",
+				"bootstrap"
+			],
+			[
+				"pa",
+				"pairs"
+			],
+			[
+				"source",
+				"source(\"http	(calculate.clinical.significance.R)"
+			],
+			[
+				"validation",
+				"validation"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"boot",
+				"bootstrap"
+			],
+			[
+				"res",
+				"results	(analyze.clinical.patterns.R)"
+			],
+			[
+				"merg",
+				"merged	(analyze.clinical.patterns.R)"
+			],
+			[
+				"pan",
+				"pancancer"
+			],
+			[
+				"times",
+				"times1"
+			],
+			[
+				"p",
+				"pairs"
+			],
+			[
+				"significa",
+				"significant	(analyze.patterns.R)"
+			],
+			[
+				"thr",
+				"thresholds"
+			],
+			[
+				"val",
+				"valid"
+			],
+			[
+				"ind",
+				"index"
+			],
+			[
+				"log",
+				"logRankGene	(calculate.clinical.significance.R)"
+			],
+			[
+				"N",
+				"NaN"
+			],
+			[
+				"o",
+				"overall"
+			],
+			[
+				"in",
+				"index"
+			],
+			[
+				"pat",
+				"pattern"
+			],
+			[
+				"cur",
+				"curtis	(merge.pattern.results.Rout)"
+			],
+			[
+				"sc",
+				"scna2"
+			],
+			[
+				"out",
+				"outputs"
+			],
+			[
+				"pair",
+				"pairs"
+			],
+			[
+				"m",
+				"matrix"
+			],
+			[
+				"mo",
+				"motifs"
+			],
+			[
+				"run",
+				"runAnalyzeMotifs"
+			],
+			[
+				"ma",
+				"matrix"
+			],
+			[
+				"sam",
+				"sampling"
+			],
+			[
+				"samp",
+				"sample"
+			],
+			[
+				"result",
+				"results"
+			],
+			[
+				"pr",
+				"print"
+			],
+			[
+				"ta",
+				"tab"
+			],
+			[
+				"dir",
+				"directory"
+			],
+			[
+				"r",
+				"rug	Add Tick Marks"
+			],
+			[
+				"da",
+				"data"
+			],
+			[
+				"mem",
+				"memory"
+			],
+			[
+				"cnv",
+				"cnv"
+			],
+			[
+				"gene",
+				"genecnt"
+			],
+			[
+				"pre",
+				"previous_results"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"qs",
+				"qsub"
+			],
+			[
+				"do",
+				"double"
+			],
+			[
+				"fo",
+				"for	For Loop"
+			],
+			[
+				"se",
+				"sep"
+			],
+			[
+				"so",
+				"sor	Sort"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "generate.py",
+			"settings":
+			{
+				"buffer_size": 1373,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "FSM.py",
+			"settings":
+			{
+				"buffer_size": 6661,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 267.0,
+		"last_filter": "isnta",
+		"selected_items":
+		[
+			[
+				"isnta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove p",
+				"Package Control: Remove Package"
+			],
+			[
+				"todo",
+				"TodoReview: Project Files"
+			],
+			[
+				"tak",
+				"Tasks: New document"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"set R",
+				"Set Syntax: R"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Combine data files into df"
+			],
+			[
+				"linter",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"pac",
+				"Preferences: Browse Packages"
+			],
+			[
+				"goo",
+				"Google Search: Search any"
+			],
+			[
+				"rmpa",
+				"Package Control: Remove Package"
+			],
+			[
+				"gitcim",
+				"Git: Quick Commit"
+			],
+			[
+				"git",
+				"Git: Commit"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"re",
+				"File: Revert"
+			],
+			[
+				"reve",
+				"File: Revert"
+			],
+			[
+				"R",
+				"Set Syntax: R"
+			],
+			[
+				"she",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"C++",
+				"Set Syntax: C++"
+			],
+			[
+				"snipp",
+				"Snippet: Source"
+			],
+			[
+				"ssp",
+				"Set Syntax: Python"
+			],
+			[
+				"sy",
+				"Set Syntax: HTML"
+			],
+			[
+				"sy ma",
+				"Set Syntax: MATLAB"
+			]
+		],
+		"width": 446.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"ls",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/jessie/Google Drive/Classes/Linguistics/CL-Projects"
+	],
+	"file_history":
+	[
+		"/Users/jessie/Google Drive/Classes/Linguistics/CL-Projects/analyze.py",
+		"/Users/jessie/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/jessie/Projects/RSR.Scripts/pan.cancer/merge.pancancer.results.R",
+		"/Users/jessie/Projects/RSR.Scratch/Suppose that 1:100,000 of the population has the a",
+		"/Users/jessie/Google Drive/Classes/Linguistics/ex2.txt",
+		"/Users/jessie/Google Drive/Classes/Linguistics/e.txt",
+		"/Users/jessie/Projects/RSR.Scripts/pan.cancer/analyze.pairwise.significance.R",
+		"/Users/jessie/Projects/RSR.Scripts/pan.cancer/old/Before single pattern for each pair/analyze.pairwise.significance.R",
+		"/Users/jessie/Projects/RSR.Scripts/pan.cancer/old/old/calculate.depleted.pairs.R",
+		"/Users/jessie/Projects/RSR.Scripts/pan.cancer/runCalculatePatterns.sh",
+		"/Users/jessie/Projects/RSR.Scripts/pan.cancer/old/With 3d matrix/calculate.depleted.pairs.R",
+		"/Users/jessie/Projects/RSR.Scripts/pan.cancer/old/With 3d matrix/calculate.clinical.depleted.pairs.R",
+		"/Users/jessie/Projects/RSR.Scripts/pan.cancer/old/With 3d matrix/calculate.depleted.pairs.stats.R",
+		"/Users/jessie/Projects/RSR.Scripts/pan.cancer/aggregateLogRankGene.cpp",
+		"/Users/jessie/Projects/RSR.Scripts/pan.cancer/test.molecular.significance.R",
+		"/Users/jessie/Projects/RSR.Scripts/pan.cancer/aggregateLogRankGene.old.cpp",
+		"/Users/jessie/Projects/RSR.Scripts/pan.cancer/analyzePairs.cpp",
+		"/Users/jessie/Projects/RSR.Scripts/pan.cancer/logRankGene.cpp",
+		"/Users/jessie/Projects/RSR.Scripts/pan.cancer/find.cross.platform.gene.pairs.R",
+		"/Users/jessie/Projects/RSR.Scripts/pan.cancer/calculate.aggregated.clinical.significance.Rout",
+		"/Users/jessie/Projects/RSR.Scripts/pan.cancer/calculate.aggregated.clinical.significance.R",
+		"/Users/jessie/Projects/RSR.Scripts/pan.cancer/calculate.clinical.significance.Rout",
+		"/Users/jessie/Projects/RSR.Scripts/pan.cancer/calculate.clinical.significance.R",
+		"/Users/jessie/Projects/RSR.Scripts/pan.cancer/calculate.depleted.pairs.stats.R",
+		"/Users/jessie/Projects/RSR.Scripts/pan.cancer/calculate.clinical.depleted.pairs.R",
+		"/Users/jessie/Projects/RSR.Scripts/pan.cancer/calculate.depleted.pairs.Rout",
+		"/Users/jessie/Projects/RSR.Scripts/pan.cancer/calculate.depleted.pairs.R",
+		"/Users/jessie/Projects/RSR.Scripts/pan.cancer/merge.pancancer.results.Rout",
+		"/Users/jessie/Projects/RSR.Scripts/pan.cancer/analyze.pairwise.significance.Rout",
+		"/Users/jessie/Projects/RSR.Scripts/pan.cancer/analyze.pancancer.patterns.R",
+		"/Users/jessie/Projects/RSR.Scripts/pan.cancer/old/With 3d matrix/merge.pancancer.results.R",
+		"/Users/jessie/Projects/RSR.Scripts/pan.cancer/old/With 3d matrix/analyze.pairwise.significance.R",
+		"/Users/jessie/Google Drive/Classes/Linguistics/ex1.py",
+		"/Users/jessie/Google Drive/Classes/Linguistics/Linuistics.HW.Keys",
+		"/Users/jessie/Projects/RSR.Scripts/pan.cancer/runCalculateAggregatedClinicalSignificance.sh",
+		"/Users/jessie/Projects/RSR.Scratch/data/pancancer/bins.scna.RData",
+		"/Users/jessie/Projects/RSR.Scratch/data/pancancer/merged.clinical.mRNA.pancancer.results.RData",
+		"/Users/jessie/Projects/RSR.Scripts/pan.cancer/old/calculate.clinical.significance.R",
+		"/Users/jessie/Projects/RSR.Scripts/pan.cancer/old/analyze.pancancer.patterns.R",
+		"/Users/jessie/Projects/RSR.Scripts/pan.cancer/old/calculate.clinical.significance.cross.platform.R",
+		"/Users/jessie/Projects/RSR.Scripts/data/pancancerToCurtisGeneMap.mat",
+		"/Users/jessie/Projects/RSR.Scripts/pan.cancer/runCalculateClinicalSignificance.sh",
+		"/Users/jessie/Projects/RSR.Scripts/bootstrap/bootstrap.R",
+		"/Users/jessie/Projects/RSR.Scratch/data/pancancer/output/merge-pancancer-err-1",
+		"/Users/jessie/Projects/RSR.Scratch/data/pancancer/output/depleted-pairs-1",
+		"/Users/jessie/Projects/RSR.Scripts/old/Clinical significance 90-10 and new approach/analyze.motifs.R",
+		"/Users/jessie/connection",
+		"/Users/jessie/Projects/RSR.Scripts/bootstrap/aggregateLogRankGene.cpp",
+		"/Users/jessie/Projects/RSR.Scripts/scripts/calculate.clinical.significance.R",
+		"/Users/jessie/Projects/RSR.Scripts/scripts/analyze.clinical.patterns.R",
+		"/Users/jessie/Projects/RSR.Scripts/bootstrap/bootstrap.Rout",
+		"/Users/jessie/Projects/RSR.Scripts/bootstrap/find.cross.platform.gene.pairs.R",
+		"/Users/jessie/Projects/RSR.Scripts/pan.cancer/old/analyze.pairwise.significance.R",
+		"/Users/jessie/Downloads/bootstrap.R",
+		"/Users/jessie/Projects/RSR.Scripts/bootstrap/crossDataset.R",
+		"/Users/jessie/Projects/RSR.Scripts/pan.cancer/calculate.clinical.significance.cross.platform.Rout",
+		"/Users/jessie/Projects/RSR.Scripts/pan.cancer/calculate.clinical.significance.cross.platform.R",
+		"/Users/jessie/Projects/RSR.Scripts/bootstrap/runBootstrap.sh",
+		"/Users/jessie/Projects/RSR.Scripts/bootstrap/p.pdf",
+		"/Users/jessie/Projects/RSR.Scripts/bootstrap/assaf.R",
+		"/Users/jessie/Projects/RSR.Scripts/scripts/calculate.depleted.pairs.R",
+		"/Users/jessie/Projects/RSR.Scripts/old/Before clinical significance/analyze.patterns.R",
+		"/Users/jessie/Projects/RSR.Scripts/pan.cancer/runMergePancancerResults.sh",
+		"/Users/jessie/Projects/RSR.Scripts/pab.cancer/ggsurv.R",
+		"/Users/jessie/Projects/RSR.Scripts/pan.cancer/ggsurv.R",
+		"/Users/jessie/Projects/RSR.Scripts/pan.cancer/runCalculateDepletedPairs.sh",
+		"/Users/jessie/Projects/RSR.Scripts/original.sl.validation/analyze.clinical.patterns.R",
+		"/Users/jessie/Projects/RSR.Scripts/original.sl.validation/logRankGene.cpp",
+		"/Users/jessie/Projects/RSR.Scripts/original.sl.validation/calculate.clinical.significance.R",
+		"/Users/jessie/Projects/RSR.Scratch/data/curtis.mRNA.2.bins.RData",
+		"/Users/jessie/Projects/RSR.Scripts/pan.cancer/assaf.ud.R",
+		"/Users/jessie/Projects/RSR.Scripts/pan.cancer/runAnalyzePairewiseSignificance.sh",
+		"/Users/jessie/Projects/RSR.Scripts/scripts/calculate.clinical.significance.Rout",
+		"/Users/jessie/Projects/RSR.Scripts/scripts/merge.clinical.results.R",
+		"/Users/jessie/Projects/RSR.Scripts/scripts/analyze.pairwise.clinical.significance.R",
+		"/Users/jessie/Projects/Files/Instructions",
+		"/Users/jessie/Projects/RSR.Scripts/scripts/merge.clinical.results.Rout",
+		"/Users/jessie/Projects/RSR.Scripts/scripts/analyze.pairwise.clinical.significance.Rout",
+		"/Users/jessie/Projects/RSR.Scripts/scripts/calculate.depleted.pairs.Rout",
+		"/Users/jessie/Projects/RSR.Scripts/results/clinical.scna.curtis.cross.pdf",
+		"/Users/jessie/Projects/RSR.Scripts/scripts/logRankGene.cpp",
+		"/Users/jessie/Projects/curtis.genes.txt",
+		"/Users/jessie/Projects/RSR.Scripts/old/Clinical significance 90-10 and new approach/analyzePairs.cpp",
+		"/Users/jessie/Projects/RSR.Scripts/scripts/pathwayEnrichment.R",
+		"/Users/jessie/Projects/RSR.Scripts/scripts/GO.R",
+		"/Users/jessie/Projects/RSR.Scripts/scripts/runCalculateDepletedPairs.sh",
+		"/Users/jessie/Projects/RSR.Scripts/scripts/analyze.motifs.R",
+		"/Users/jessie/Projects/RSR.Scripts/old/Clinical significance 90-10 and new approach/analyze.patterns.R",
+		"/Users/jessie/Projects/RSR.Scripts/scripts/J/collectClinical.R",
+		"/Users/jessie/Projects/RSR.Scripts/scripts/runMergeClinicalResults.sh",
+		"/Users/jessie/Projects/RSR.Scripts/old/Clinical significance 90-10 and new approach/calculate.clinical.significance.R",
+		"/Users/jessie/Projects/RSR.Scripts/scripts/runAnalyzePairewiseClinicalSignificance.sh",
+		"/Users/jessie/Projects/RSR.Scripts/scripts/J/pairClinical.R",
+		"/Users/jessie/Projects/RSR.Scripts/scripts/J/readClinicalPval.R",
+		"/Users/jessie/Projects/RSR.Scripts/scripts/analyzePairs.cpp",
+		"/Users/jessie/Projects/RSR.Scripts/scripts/pairClinical.R",
+		"/Users/jessie/Projects/RSR.Scripts/scripts/analyze.patterns.R",
+		"/Users/jessie/Projects/RSR.Scripts/scripts/merge.pattern.results.R",
+		"/Users/jessie/Projects/RSR.Scripts/scripts/merge.pattern.results.Rout",
+		"/Users/jessie/Projects/RSR.Scripts/scripts/runCalculateClinicalSignificance.sh",
+		"/Users/jessie/Projects/RSR.Scripts/scripts/log.rank.survival.R",
+		"/Users/jessie/Projects/RSR.Scripts/scripts/analyze.motifs.Rout",
+		"/Users/jessie/Projects/RSR.Scripts/scripts/cross.platform.clinical.significance.R",
+		"/Users/jessie/Projects/RSR.Scripts/scripts/calculate.clinical.significance.cross.platform.R",
+		"/Users/jessie/Projects/RSR.Scripts/scripts/logrank.assaf.r",
+		"/Users/jessie/Projects/RSR.Scratch/data/mRNA/curtis/original/1/output/clinical-err-5",
+		"/Users/jessie/Projects/RSR.Scratch/data/mRNA/tcga/original/1/output/err-77",
+		"/Users/jessie/Projects/RSR.Scripts/scripts/runMergePatternResults.sh",
+		"/Users/jessie/Projects/RSR.Scratch/data/scna/curtis/original/1/output/err-101",
+		"/Users/jessie/Projects/RSR.Scratch/data/scna/curtis/original/1/Data.RData",
+		"/Users/jessie/Projects/RSR.Scratch/data/mRNA/curtis/rnd/1/output/err-105",
+		"/Users/jessie/Projects/RSR.Scripts/old/Before new rand mathod/analyze.patterns.R",
+		"/Users/jessie/Projects/RSR.Scratch/data/scna/tcga/original/1/output/err-2",
+		"/Users/jessie/Projects/RSR.Scratch/data/scna/tcga/original/1/output/err-1",
+		"/Users/jessie/Projects/RSR.Scripts/scripts/runAnalyzeMotifs.sh",
+		"/Users/jessie/Projects/RSR.Scripts/old/old.scripts/binomialGeneTest.cpp",
+		"/Users/jessie/Projects/RSR.Scripts/old/old.scripts/analyze.motifs.R",
+		"/Users/jessie/Projects/RSR.Scripts/old/GIM/analyze.motifs.p.val/analyze.motifs.R",
+		"/Users/jessie/Projects/RSR.Scripts/old/GIM/analyze.motifs.p.val/analyze.mrna.motifs.R",
+		"/Users/jessie/Projects/RSR.Scripts/old/old.scripts/runParallelCnvMotifs.sh",
+		"/Users/jessie/Projects/RSR.Scripts/old/old.scripts/analyze.patterns.R",
+		"/Users/jessie/Projects/RSR.Scripts/old/old.scripts/merge.pattern.results.R",
+		"/Users/jessie/Projects/RSR.Scripts/old/GIM/analyze.motifs.p.val/check.job.run.status.R",
+		"/Users/jessie/Projects/RSR.Scripts/GIM/analyze.motifs.p.val/merge.pattern.results.R",
+		"/Users/jessie/Projects/RSR.Scripts/tasks.TODO",
+		"/Users/jessie/Desktop/analyze.motifs.R",
+		"/Users/jessie/Projects/RSR.Scripts/GIM/analyze.motifs.p.val/analyze.cnv.motifs.R",
+		"/Users/jessie/Projects/RSR.Scripts/GIM/analyze.motifs.p.val/analyze.randomized.cnv.motifs.R"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"<open files>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"your",
+			"merged.clinical.p.vals",
+			"alculate.patterns",
+			"min.p.val",
+			"0.01",
+			"delta.auc.quantile.threshold",
+			"[r,c,]",
+			"merged.clinical.delta.aucs<=0",
+			"dir",
+			"rank.threshold.index",
+			"delta.auc.threshold.index",
+			"p.val.threshold.index",
+			"threshold.index",
+			"delta.auc.threshold.index",
+			"p.val",
+			"p.vals",
+			"p.val.quantile.threshold",
+			"quantile.threshold",
+			"0.5",
+			"selected",
+			"p.val.thresholds",
+			"p.val.threshold.index",
+			"selected.bins",
+			"clinical.patterns",
+			"file.name",
+			"start.time",
+			"start.time)",
+			"p.val",
+			"work.dir",
+			"results.dir",
+			"clinical.patterns.3d",
+			"colla",
+			"clinical.patterns",
+			"merge.pancancer.results",
+			"sum(jobs)",
+			"clinical.patterns",
+			"queue.name",
+			"auc.threshold",
+			"num.genes",
+			"depleted.pairs[[index]]",
+			"depleted.pairs",
+			"gene.lists",
+			"bootstrap.",
+			"validate.bootstrap.analysis",
+			"mRNA.depleted.pairs",
+			"cd.test",
+			"validate.gene.pairs",
+			"cd.test",
+			"log.rank.survival",
+			"calculate.clinical.significance",
+			"clinical.patterns",
+			"delta.auc",
+			"p.val",
+			"ncol(scnaqtest)",
+			"numeric(ncol(scnaqtest))",
+			"res.work.dir",
+			"num.depleted",
+			"num.jobs",
+			"        validation.scna.bin.map,validation.survival,\n",
+			"scna.aggregate.delta.aucs,\n    scna.aggregate.q.vals,",
+			"        aggregate.q.vals,aggregate.delta.aucs,\n",
+			"    mRNA.aggregate.delta.aucs,\n    mRNA.aggregate.q.vals,",
+			"base.work.path",
+			"work.dir",
+			"results.dir",
+			"base.work.path",
+			"id",
+			"num.jobs",
+			"id",
+			"num.jobs",
+			"workers/2",
+			"num.genes",
+			"CNV",
+			"sep='='",
+			"sep",
+			"sep='='",
+			"paste('pattern',pattern,sep='=')",
+			"mRNA.motifs",
+			"mRNA.bin.thresholds",
+			"mRNA.bin.map",
+			"results.dir",
+			"num.jobs",
+			",\n",
+			"molecular.scna.depleted.pairs",
+			"validatsion",
+			"depleted.pairs",
+			"base.work.dir",
+			"work.dir",
+			"temp",
+			"work.dir",
+			"scna.bin.map",
+			"results.dir",
+			"results",
+			"results.dir",
+			"mRNA",
+			"adjusted.p.vals",
+			"aggregate.p.vals",
+			"mRNA",
+			"scna",
+			"mRNA",
+			"mRNA.depleted.pairs",
+			"sum",
+			"label",
+			"mRNA",
+			"[pattern]",
+			"calculate.depleted.pairs",
+			"label",
+			"molecular.depleted.pairs",
+			"rowSums",
+			"work.dir",
+			"mRNA",
+			"index",
+			"indices",
+			"indices[1]",
+			"indices[2]",
+			"gene3",
+			"gene2",
+			"gene1",
+			"print",
+			"start.time",
+			"mRNA",
+			"aggregate.p.vals",
+			"aggregate.delta.aucs",
+			"molecular.based.mRNA.scna.mRNA.depleted.pairs",
+			"molecular.scna.depleted.pairs",
+			"molecular.mRNA.depleted.pairs",
+			"mRNA",
+			"scna"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"clinical",
+			"cat",
+			"fileHandler",
+			" = "
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": true,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Users/jessie/Google Drive/Classes/Linguistics/CL-Projects"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "generate.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1373,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								341,
+								341
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"colorcode": true,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "FSM.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6661,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								729,
+								729
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"colorcode": true,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 100.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 65.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ccs",
+				"RSR.Scripts/scripts/calculate.clinical.significance.R"
+			],
+			[
+				"cpp",
+				"RSR.Scripts/old/old.scripts/binomialGeneTest.cpp"
+			],
+			[
+				"analrancn",
+				"RSR.Scripts/GIM/analyze.motifs.p.val/analyze.randomized.cnv.motifs.R"
+			],
+			[
+				"anal",
+				"RSR.Scripts/GIM/analyze.motifs.p.val/analyze.cnv.motifs.R"
+			],
+			[
+				"analcnv",
+				"RSR.Scripts/GIM/analyze.motifs.p.val/analyze.cnv.motifs.R"
+			],
+			[
+				"analyzeranma",
+				"RSR.Scripts/GIM/analyze.motifs.p.val/analyze.randomized.mrna.motifs.R"
+			],
+			[
+				"analrna",
+				"RSR.Scripts/GIM/analyze.motifs.p.val/analyze.mrna.motifs.R"
+			],
+			[
+				"analyzeran",
+				"RSR.Scripts/GIM/analyze.motifs.p.val/analyze.randomized.cnv.motifs.R"
+			],
+			[
+				"analyzecnv",
+				"RSR.Scripts/GIM/analyze.motifs.p.val/analyze.cnv.motifs.R"
+			],
+			[
+				"mer",
+				"~/Projects/RSR.Scripts/GIM/analyze.motifs.p.val/merge.pattern.results.R"
+			],
+			[
+				"runparal",
+				"RSR.Scripts/GIM/analyze.motifs.p.val/runParallelCnvMotifs.sh"
+			],
+			[
+				"stack",
+				"~/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap"
+			],
+			[
+				"",
+				"RSR.Scratch/.Rhistory"
+			],
+			[
+				"mergpar",
+				"RSR.Scripts/GIM/analyze.motifs.p.val/merge.pattern.results.R"
+			],
+			[
+				"analp",
+				"RSR.Scripts/GIM/analyze.motifs.p.val/analyze.patterns.R"
+			],
+			[
+				"ana",
+				"RSR.Scripts/GIM/analyze.motifs.p.val/analyze.motifs.R"
+			],
+			[
+				"prefe",
+				"~/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+			],
+			[
+				"mergepatt",
+				"RSR.Scripts/GIM/analyze.motifs.p.val/merge.pattern.results.R"
+			],
+			[
+				"mergerna",
+				"RSR.Scripts/GIM/analyze.motifs.p.val/merge.rna.results.R"
+			],
+			[
+				"merge",
+				"RSR.Scripts/GIM/analyze.motifs.p.val/merge.results.R"
+			],
+			[
+				"mergecnv",
+				"RSR.Scripts/GIM/analyze.motifs.p.val/merge.cnv.results.R"
+			],
+			[
+				"analyzerout",
+				"RSR.Scripts/GIM/analyze.motifs.p.val/analyze.cnv.motifs.Rout"
+			],
+			[
+				"rout",
+				"RSR.Scripts/GIM/analyze.motifs.p.val/analyze.cnv.motifs.Rout"
+			],
+			[
+				"analyscnv",
+				"RSR.Scripts/GIM/analyze.motifs.p.val/analyze.cnv.motifs.R"
+			],
+			[
+				"binom",
+				"RSR.Scripts/C/binomialGeneTest.cpp"
+			],
+			[
+				"binmo",
+				"RSR.Scripts/C/binomialTest.cpp"
+			],
+			[
+				"bin",
+				"RSR.Scripts/C/binom.R"
+			],
+			[
+				"analu",
+				"RSR.Scripts/GIM/analyze.motifs.p.val/analyze.cnv.motifs.Rout"
+			],
+			[
+				"mergeresu",
+				"RSR.Scripts/GIM/analyze.motifs.p.val/merge.results.R"
+			],
+			[
+				"mergepe",
+				"RSR.Scripts/GIM/analyze.motifs.p.val/merge.pattern.results.R"
+			],
+			[
+				"analyze.",
+				"RSR.Scratch/old/GIM/analyze.motifs.p.val/analyze.motifs.R"
+			],
+			[
+				"old",
+				"RSR.Scratch/old/GIM/analyze.motifs.p.val/analyze.motifs.R"
+			],
+			[
+				"cp",
+				"C/binomGeneTest.cp"
+			],
+			[
+				"analamotife",
+				"GIM/analyze.motif.extremes/analyze.motif.extremes.R"
+			],
+			[
+				"ls",
+				"~/Google Drive/Metabolism Lab/Apps_Scripts/Synthetic Rescues/RSR/GIM/analyze.motif.extremes/analyze.motif.extremes.R"
+			],
+			[
+				"gn",
+				"~/Google Drive/Metabolism Lab/Apps_Scripts/Synthetic Rescues/RSR/GIM/analyze.motif.extremes/analyze.motif.extremes.R"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/RSR.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"mer",
+				"merge.pattern.results"
+			],
+			[
+				"",
+				"merge.pattern.results"
+			],
+			[
+				"run",
+				"check.job.run.status"
+			],
+			[
+				"meg",
+				"merge.pattern.results"
+			],
+			[
+				"pat",
+				"analyze.patterns"
+			],
+			[
+				"anal",
+				"analyze.patterns"
+			]
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": false,
+	"side_bar_visible": true,
+	"side_bar_width": 225.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}
