@@ -173,35 +173,38 @@ def buildSegmentChannelModel(words, segmentations):
     return fst
 
 
-<<<<<<< HEAD
-def fancySouceModel(segmentations):
-    fsa = FSM.FSM(isProbabilistic=True)
-    fsa.setInitialState('start')
-    fsa.setFinalState('end')
-    raise Exception("fancySouceModel not defined")
-=======
 def fancySourceModel(segmentations):
     # compute all tri-grams
     lm = {}
     vocab = {}
+    vocab['start'] = 1
     vocab['end'] = 1
+
     for s in segmentations:
         prev0 = 'start'
         prev1 = 'start'
         for c in s:
-            if not lm.has_key(prev0): lm[prev0] = {}
-            if not lm[prev0].has_key(prev1): lm[prev0][prev1] = Counter()
+            if not lm.has_key(prev0): 
+                lm[prev0] = {}
+            if not lm[prev0].has_key(prev1): 
+                lm[prev0][prev1] = Counter()
             lm[prev0][prev1][c] = lm[prev0][prev1][c] + 1
             prev0 = prev1
             prev1 = c
             vocab[c] = 1
-        if not lm.has_key(prev0): lm[prev0] = {}
-        if not lm[prev0].has_key(prev1): lm[prev0][prev1] = Counter()
+        if not lm.has_key(prev0): 
+            lm[prev0] = {}
+        if not lm[prev0].has_key(prev1): 
+            lm[prev0][prev1] = Counter()
         lm[prev0][prev1]['end'] = lm[prev0][prev1]['end'] + 1
 
     # smooth and normalize
-    for prev0 in lm.iterkeys():
-        for prev1 in lm.iterkeys():
+    for prev0 in vocab.iterkeys():
+        if prev0 not in lm:
+            lm[prev0] = {}
+        for prev1 in vocab.iterkeys():
+            if prev1 not in lm[prev0]:
+                lm[prev0][prev1] = Counter()
             for c in vocab.iterkeys():
                 lm[prev0][prev1][c] = lm[prev0][prev1][c] + 0.5   # add 0.5 smoothing
             lm[prev0][prev1].normalize()
@@ -212,23 +215,28 @@ def fancySourceModel(segmentations):
     fsa.setFinalState('end')
     ### TODO: YOUR CODE HERE
     #adding edge from start state to first characters of words
-    fsa.addEdge('start','start','start',prob=1)
-    for c in lm['start']['start']:
-        fsa.addEdge('start',c,c,prob=lm['start']['start'][c])
-    #add edges between remaining characters of each word
+    for first_char in vocab.iterkeys():
+
+        fsa.addEdge('start', first_char, first_char, prob=lm['start']['start'][first_char])
+        for second_char in vocab.iterkeys():
+            
+            fsa.addEdge(first_char, first_char + second_char, second_char, prob=lm['start'][first_char][second_char])
+    
     
     for key0 in vocab:
-        for key1 in vocab:
-            for curr in vocab:
-                if curr != 'end':
-                    fsa.addEdge(key0+key1,key1+curr,None,prob=lm[key0][key1][curr])
-                else:
-                    fsa.addEdge(key0+key1,'end',None,prob=lm[key0][key1][curr])
+        if key0 != 'start':
+            for key1 in vocab:
+                if key1 != 'start':
+                    for curr in vocab:
+
+                        if curr != 'end':
+                            fsa.addEdge(key0+key1,key1+curr,curr,prob=lm[key0][key1][curr])
+                        else:
+                            fsa.addEdge(key0+key1,'end',None,prob=lm[key0][key1][curr])
 
     #util.raiseNotDefined()
     return fsa
 
->>>>>>> 9f94e7143ce6cac34075edfc4d17c4c1d983e8f4
 
 def fancyChannelModel(words, segmentations):
     return buildSegmentChannelModel(words, segmentations)
@@ -269,13 +277,8 @@ def saveOutput(filename, output):
     h.close()
 
 def main():
-<<<<<<< HEAD
-    out = runTest(channel=buildSegmentChannelModel)
-=======
-    output = runTest(devFile="bengali.test",source=fancySourceModel,channel=buildSegmentChannelModel)
+    output = runTest(devFile='bengali.test',source=fancySourceModel)
     saveOutput('bengali.test.predictions', output)
-
->>>>>>> 9f94e7143ce6cac34075edfc4d17c4c1d983e8f4
 if __name__ == '__main__':
     main()
     

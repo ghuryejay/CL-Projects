@@ -1,7 +1,7 @@
 import FSM
 import util
 
-vocabulary = ['panic', 'picnic', 'ace', 'pack', 'pace', 'traffic', 'lilac', 'ice', 'spruce', 'frolic','kick']
+vocabulary = ['panic', 'picnic', 'ace', 'pack', 'pace', 'traffic', 'lilac', 'ice', 'spruce', 'frolic','kick','hack']
 suffixes   = ['', '+ed', '+ing', '+s']
 
 def buildSourceModel(vocabulary, suffixes):
@@ -121,7 +121,7 @@ def simpleTest():
     print "==== Result: ", str(output), " ===="
 
     print "==== Disambiguating a few phrases: aced, panicked, paniced, sprucing ===="
-    output = FSM.runFST([fsa,fst], ["aced", "paniced", "panicked", "sprucing","kicks"])
+    output = FSM.runFST([fsa,fst], ["aced", "paniced", "panicked", "sprucing","kicks","frolicked"])
     print "==== Result: ", str(output), " ===="
 
 def main():
